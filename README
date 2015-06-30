@@ -1,0 +1,39 @@
+// ---------------------------------------
+// README file
+// ---------------------------------------
+Project name: APB monitor in UVM(simple test included)
+Author: Lianghao Yuan
+Email: yuanlianghao@gmail.com
+Date: 06/30/2015
+
+// **********************************************
+// Notice:
+// 
+// The testplan is generated according to the “Coverage cookbook” of Mentor Graphics, 
+// and the APB monitor assertion and cover property refers to example offered in the book  
+// with minor changes, but completely rebuilt into UVM component.
+// **********************************************
+// ---------------------------------------
+1. Directory structure
+// ---------------------------------------
+/doc:                      Contains APB3 protocol spec , a testplan for monitor and final 
+                           coverage report.
+/apb_monitor               Contains Implementation of apb_monitor(apb_monitor_assert_if 
+                           for assertion and apb_monitor_cov for coverage) as well as other 
+                           UVM component for testbench.
+/sim                       Contains Makefile for running the simulation(for Synopsys VCS)
+/testbench                 Contains UVM verification components for running test
+
+// ---------------------------------------
+2. Usage
+// ---------------------------------------
+a. Modification of Makefile
+
+Change the UVM_HOME in line 6 to your UVM package location.
+Change UVM_VERBOSITY to either UVM_HIGH(default, shows everything) or UVM_LOW (shows nothing).
+
+b. In /sim, type "make" to run basic test
+
+c. To clean all auto-generated files, type "make clean". 
+
+

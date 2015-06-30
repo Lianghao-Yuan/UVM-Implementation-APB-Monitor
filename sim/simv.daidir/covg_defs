@@ -1,0 +1,118 @@
+global coverage_group 0 apb_monitor_cov::apb_protocol_cg __coverage_apb_monitor_cov.apb_protocol_cg unused_apb_monitor_cov_apb_protocol_cg_loop_label apb_monitor_pkg 0 0 0 ( )
+ 1 1
+ 106 /nethome/lyuan39/Desktop/apb_checker/UVM-implementation-apb-monitor/sim/../apb_monitor/apb_monitor_cov.svh
+ 40 0 0 0 1 0 0 0 0  0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 70 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_14
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+ 2 RW 44 0 0 0 67 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn 67 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 read 45 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 write 46 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_1 0 0 0 0 0 0 0
+
+ 3 ERR 48 0 0 0 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_2 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 3 err 49 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 ok 50 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_0 0 0 0 0 0 0 0
+
+ 4 PSEL 52 0 0 0 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_3 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 16 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 16 1 1 0 0 1 1 6 PSEL_0 53 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_1 54 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_5 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_2 55 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_6 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_3 56 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_4 57 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_8 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_5 58 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_9 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_6 59 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_a 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_7 60 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_b 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_8 61 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_c 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 PSEL_9 62 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_d 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_10 63 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_e 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_11 64 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 69 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_f 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_12 65 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 70 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_10 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_13 66 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 70 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_11 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_14 67 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 70 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_12 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 PSEL_15 68 0 1 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 70 apb_monitor_cov::apb_monitor_pkg_apb_monitor_cov_apb_protocol_cg_fn_13 0 0 0 0 0 0 0
+
+ 7 APB_CVR 0 70 0 0 0 0 3 0 1 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
