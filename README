@@ -16,11 +16,8 @@ Date: 06/30/2015
 // ---------------------------------------
 1. Directory structure
 // ---------------------------------------
-/doc:                      Contains APB3 protocol spec , a testplan for monitor and final 
-                           coverage report.
-/apb_monitor               Contains Implementation of apb_monitor(apb_monitor_assert_if 
-                           for assertion and apb_monitor_cov for coverage) as well as other 
-                           UVM component for testbench.
+/doc:                      Contains APB3 protocol spec , a testplan for monitor and final coverage report.
+/apb_monitor               Contains Implementation of apb_monitor(apb_monitor_assert_if for assertion and apb_monitor_cov for coverage) as well as other UVM component for testbench.
 /sim                       Contains Makefile for running the simulation(for Synopsys VCS)
 /testbench                 Contains UVM verification components for running test
 
